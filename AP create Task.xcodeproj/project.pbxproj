@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D70FC92027EE195B00942EBB /* AP_create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70FC91F27EE195B00942EBB /* AP_create_TaskApp.swift */; };
+		D70FC92027EE195B00942EBB /* APCreateTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70FC91F27EE195B00942EBB /* APCreateTaskApp.swift */; };
 		D70FC92227EE195B00942EBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70FC92127EE195B00942EBB /* ContentView.swift */; };
 		D70FC92427EE196100942EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70FC92327EE196100942EBB /* Assets.xcassets */; };
 		D70FC92727EE196100942EBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70FC92627EE196100942EBB /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		D70FC91C27EE195B00942EBB /* AP create Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP create Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D70FC91F27EE195B00942EBB /* AP_create_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AP_create_TaskApp.swift; sourceTree = "<group>"; };
+		D70FC91F27EE195B00942EBB /* APCreateTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APCreateTaskApp.swift; sourceTree = "<group>"; };
 		D70FC92127EE195B00942EBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D70FC92327EE196100942EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70FC92627EE196100942EBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		D70FC91E27EE195B00942EBB /* AP create Task */ = {
 			isa = PBXGroup;
 			children = (
-				D70FC91F27EE195B00942EBB /* AP_create_TaskApp.swift */,
+				D70FC91F27EE195B00942EBB /* APCreateTaskApp.swift */,
 				D70FC92127EE195B00942EBB /* ContentView.swift */,
 				D70FC92327EE196100942EBB /* Assets.xcassets */,
 				D70FC92527EE196100942EBB /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70FC92227EE195B00942EBB /* ContentView.swift in Sources */,
-				D70FC92027EE195B00942EBB /* AP_create_TaskApp.swift in Sources */,
+				D70FC92027EE195B00942EBB /* APCreateTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

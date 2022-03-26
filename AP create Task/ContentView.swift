@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var startNumber = ""
+    @State var endNumber = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            HStack{
+                Spacer()
+                
+                TextField("Start #", text:$startNumber)
+                Spacer()
+
+                TextField("End #", text:$endNumber)
+                Spacer()
+
+            }
+        }
     }
 }
 

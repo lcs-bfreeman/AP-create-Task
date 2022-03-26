@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct AP_create_TaskApp: App {
+struct APCreateTaskApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
