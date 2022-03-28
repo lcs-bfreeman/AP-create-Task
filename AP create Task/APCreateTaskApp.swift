@@ -11,7 +11,7 @@ import SwiftUI
 struct APCreateTaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(dieFaceNum: 1, diceFace: "die.face.1")
         }
     }
 }
