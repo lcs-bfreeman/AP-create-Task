@@ -13,7 +13,39 @@ struct ContentView: View {
     @State var diceFace: String
 
     
-    func diceRoll() {
+    func diceRoll4() {
+dieFaceNum = Int.random(in: 1...4)
+        switch dieFaceNum {
+        case 1 :
+            diceFace = "die.face.1"
+        case 2 :
+            diceFace = "die.face.2"
+        case 3 :
+            diceFace = "die.face.3"
+        case 4 :
+            diceFace = "die.face.4"
+        default:
+            break
+        }
+    }
+    func diceRoll5() {
+dieFaceNum = Int.random(in: 1...5)
+        switch dieFaceNum {
+        case 1 :
+            diceFace = "die.face.1"
+        case 2 :
+            diceFace = "die.face.2"
+        case 3 :
+            diceFace = "die.face.3"
+        case 4 :
+            diceFace = "die.face.4"
+        case 5 :
+            diceFace = "die.face.5"
+        default:
+            break
+        }
+    }
+    func diceRoll6() {
 dieFaceNum = Int.random(in: 1...6)
         switch dieFaceNum {
         case 1 :
@@ -41,7 +73,12 @@ dieFaceNum = Int.random(in: 1...6)
                 Image(diceFace)
             HStack {
                 
-                Button("1...6", action: diceRoll)
+                Button("1-4", action: diceRoll4)
+                Button("1-5", action: diceRoll5)
+                Button("1-6", action: diceRoll6)
+
+
+
             }
             .buttonStyle(.bordered)
         }
