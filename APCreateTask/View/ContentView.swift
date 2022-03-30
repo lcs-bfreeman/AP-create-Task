@@ -121,6 +121,8 @@ dieFaceNum = Int.random(in: 1...6)
         NavigationView{
             VStack {
                 Image(diceFace)
+                    .resizable()
+                    .scaledToFit()
             HStack {
                 Spacer()
                 
