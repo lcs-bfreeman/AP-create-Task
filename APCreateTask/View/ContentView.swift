@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  AP create Task
-//
-//  Created by Ben Freeman on 2022-03-25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -179,8 +172,4 @@ dieFaceNum = Int.random(in: 1...6)
     }
 }
 
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView()
-//    }
-//}
+

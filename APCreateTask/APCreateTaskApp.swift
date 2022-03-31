@@ -1,10 +1,3 @@
-//
-//  AP_create_TaskApp.swift
-//  AP create Task
-//
-//  Created by Ben Freeman on 2022-03-25.
-//
-
 import SwiftUI
 
 @main
