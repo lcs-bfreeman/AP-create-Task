@@ -11,14 +11,18 @@
 		D70FC92227EE195B00942EBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70FC92127EE195B00942EBB /* ContentView.swift */; };
 		D70FC92427EE196100942EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70FC92327EE196100942EBB /* Assets.xcassets */; };
 		D70FC92727EE196100942EBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70FC92627EE196100942EBB /* Preview Assets.xcassets */; };
+		D70FC93027F2443A00942EBB /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70FC92F27F2443A00942EBB /* Results.swift */; };
+		D70FC93227F2A7E300942EBB /* filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70FC93127F2A7E300942EBB /* filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D70FC91C27EE195B00942EBB /* AP create Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP create Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70FC91C27EE195B00942EBB /* APCreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APCreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70FC91F27EE195B00942EBB /* APCreateTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APCreateTaskApp.swift; sourceTree = "<group>"; };
 		D70FC92127EE195B00942EBB /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		D70FC92327EE196100942EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70FC92627EE196100942EBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D70FC92F27F2443A00942EBB /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		D70FC93127F2A7E300942EBB /* filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,7 @@
 		D70FC91327EE195A00942EBB = {
 			isa = PBXGroup;
 			children = (
-				D70FC91E27EE195B00942EBB /* AP create Task */,
+				D70FC91E27EE195B00942EBB /* APCreateTask */,
 				D70FC91D27EE195B00942EBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +47,21 @@
 		D70FC91D27EE195B00942EBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D70FC91C27EE195B00942EBB /* AP create Task.app */,
+				D70FC91C27EE195B00942EBB /* APCreateTask.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D70FC91E27EE195B00942EBB /* AP create Task */ = {
+		D70FC91E27EE195B00942EBB /* APCreateTask */ = {
 			isa = PBXGroup;
 			children = (
 				D70FC91F27EE195B00942EBB /* APCreateTaskApp.swift */,
-				D70FC92127EE195B00942EBB /* ContentView.swift */,
+				D70FC92E27F2441100942EBB /* Model */,
+				D70FC92D27F2440A00942EBB /* View */,
 				D70FC92327EE196100942EBB /* Assets.xcassets */,
 				D70FC92527EE196100942EBB /* Preview Content */,
 			);
-			path = "AP create Task";
+			path = APCreateTask;
 			sourceTree = "<group>";
 		};
 		D70FC92527EE196100942EBB /* Preview Content */ = {
@@ -67,12 +72,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D70FC92D27F2440A00942EBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D70FC92127EE195B00942EBB /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D70FC92E27F2441100942EBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D70FC92F27F2443A00942EBB /* Results.swift */,
+				D70FC93127F2A7E300942EBB /* filter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D70FC91B27EE195B00942EBB /* AP create Task */ = {
+		D70FC91B27EE195B00942EBB /* APCreateTask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D70FC92A27EE196100942EBB /* Build configuration list for PBXNativeTarget "AP create Task" */;
+			buildConfigurationList = D70FC92A27EE196100942EBB /* Build configuration list for PBXNativeTarget "APCreateTask" */;
 			buildPhases = (
 				D70FC91827EE195B00942EBB /* Sources */,
 				D70FC91927EE195B00942EBB /* Frameworks */,
@@ -82,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = "AP create Task";
+			name = APCreateTask;
 			productName = "AP create Task";
-			productReference = D70FC91C27EE195B00942EBB /* AP create Task.app */;
+			productReference = D70FC91C27EE195B00942EBB /* APCreateTask.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D70FC91727EE195B00942EBB /* Build configuration list for PBXProject "AP create Task" */;
+			buildConfigurationList = D70FC91727EE195B00942EBB /* Build configuration list for PBXProject "APCreateTask" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D70FC91B27EE195B00942EBB /* AP create Task */,
+				D70FC91B27EE195B00942EBB /* APCreateTask */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70FC92227EE195B00942EBB /* ContentView.swift in Sources */,
+				D70FC93227F2A7E300942EBB /* filter.swift in Sources */,
+				D70FC93027F2443A00942EBB /* Results.swift in Sources */,
 				D70FC92027EE195B00942EBB /* APCreateTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AP create Task/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"APCreateTask/Preview Content\"";
 				DEVELOPMENT_TEAM = GLLK6ZL2B5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AP create Task/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"APCreateTask/Preview Content\"";
 				DEVELOPMENT_TEAM = GLLK6ZL2B5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D70FC91727EE195B00942EBB /* Build configuration list for PBXProject "AP create Task" */ = {
+		D70FC91727EE195B00942EBB /* Build configuration list for PBXProject "APCreateTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D70FC92827EE196100942EBB /* Debug */,
@@ -331,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D70FC92A27EE196100942EBB /* Build configuration list for PBXNativeTarget "AP create Task" */ = {
+		D70FC92A27EE196100942EBB /* Build configuration list for PBXNativeTarget "APCreateTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D70FC92B27EE196100942EBB /* Debug */,
